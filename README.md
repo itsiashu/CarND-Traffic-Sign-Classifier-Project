@@ -8,7 +8,7 @@ Overview
 In this project, you will use what you've learned about deep neural networks and convolutional neural networks to classify traffic signs. You will train and validate a model so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, you will then try out your model on images of German traffic signs that you find on the web.
 
 
-Build a Traffic Sign Classifier Project
+### Build a Traffic Sign Classifier Project ###
 
 Project Steps:
 -load data set 
@@ -37,12 +37,12 @@ No of classes = 43
 Please refer dataset visualization done in project 
 
 
-Design and Test a Model Architecture
+### Design and Test a Model Architecture ###
  - shuffle training data
  - normalize image data for less costly train
 
 
-Final model consists of below layers
+### Final model consists of below layers ###
 Layer			Description
 input			32x32x3 normalize RGB image
 convolution 5x5		1x1 stride, valid padding and output 28x28x12
@@ -60,7 +60,7 @@ fully connected		input 84, output 43
 soft-max layer	
 
 
-Train Model
+### Train Model ###
 	- batch size used is 128
 	- epochs is 20
 	- learning rate varied from 0.01 to 0.0001 
@@ -69,9 +69,7 @@ Train Model
 	batch_size = 128
 	train_epochs = 20
 
-
-	final model results were:
-
+	final model results:
 	train-set accuracy of 0.996
 	validation-set accuracy 0.971
 	test-set accuracy 0.876

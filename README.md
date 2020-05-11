@@ -74,4 +74,5 @@ Please refer dataset visualization done in project
 	test-set accuracy 0.876
 
 ### Test Model on New Images ###
-	Model is tested on 5 random images picked from web
+	- Model is tested on 5 random images picked from web
+	- Check html doc with this

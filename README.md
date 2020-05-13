@@ -63,16 +63,16 @@ Please refer dataset visualization done in project
 	- batch size used is 128
 	- epochs is 20
 	- learning rate varied from 0.01 to 0.0001 
+	- optimizer used with model training is AdamOptimizer
 
 	rate = 0.001
 	batch_size = 128
 	train_epochs = 20
 
 	final model results:
-	train-set accuracy of 0.996
-	validation-set accuracy 0.971
-	test-set accuracy 0.876
+	validation-set accuracy 0.982
+	test-set accuracy 0.906
 
 ### Test Model on New Images ###
 	- Model is tested on 5 random images picked from web
-	- Check html doc with this
+	- Check html doc included with this
